@@ -32,52 +32,9 @@ RUN \
     nginx-mod-http-set-misc==${NGINX_VERSION} \
     nginx-mod-http-upload-progress==${NGINX_VERSION} \
     nginx-mod-http-xslt-filter==${NGINX_VERSION} \
-    nginx-mod-mail==${NGINX_VERSION} \
-    nginx-mod-rtmp==${NGINX_VERSION} \
     nginx-mod-stream==${NGINX_VERSION} \
     nginx-mod-stream-geoip==${NGINX_VERSION} \
     nginx-mod-stream-geoip2==${NGINX_VERSION} \
-    nginx-vim==${NGINX_VERSION} \
-    php81-bcmath \
-    php81-bz2 \
-    php81-ctype \
-    php81-curl \
-    php81-dom \
-    php81-exif \
-    php81-ftp \
-    php81-gd \
-    php81-gmp \
-    php81-iconv \
-    php81-imap \
-    php81-intl \
-    php81-ldap \
-    php81-mysqli \
-    php81-mysqlnd \
-    php81-opcache \
-    php81-pdo_mysql \
-    php81-pdo_odbc \
-    php81-pdo_pgsql \
-    php81-pdo_sqlite \
-    php81-pear \
-    php81-pecl-apcu \
-    php81-pecl-mailparse \
-    php81-pecl-memcached \
-    php81-pecl-redis \
-    php81-pgsql \
-    php81-phar \
-    php81-posix \
-    php81-soap \
-    php81-sockets \
-    php81-sodium \
-    php81-sqlite3 \
-    php81-tokenizer \
-    php81-xmlreader \
-    php81-xsl \
-    php81-zip && \
-  apk add --no-cache \
-    --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
-    php81-pecl-mcrypt \
-    php81-pecl-xmlrpc
 
 # ports and volumes
 EXPOSE 80 443
