@@ -33,7 +33,7 @@ RUN \
     nginx-mod-http-xslt-filter==${NGINX_VERSION} \
     nginx-mod-stream==${NGINX_VERSION} \
     nginx-mod-stream-geoip==${NGINX_VERSION} \
-    nginx-mod-stream-geoip2==${NGINX_VERSION} \
+    nginx-mod-stream-geoip2==${NGINX_VERSION}
 
 # ports and volumes
 EXPOSE 80 443
