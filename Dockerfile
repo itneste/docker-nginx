@@ -17,7 +17,6 @@ RUN \
     && awk '/^P:nginx$/,/V:/' /tmp/APKINDEX | sed -n 2p | sed 's/^V://'); \
   fi && \
   apk add --no-cache --upgrade \
-    memcached \
     nginx==${NGINX_VERSION} \
     nginx-mod-http-brotli==${NGINX_VERSION} \
     nginx-mod-http-dav-ext==${NGINX_VERSION} \
